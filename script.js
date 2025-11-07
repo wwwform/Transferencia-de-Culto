@@ -10,7 +10,7 @@ document.getElementById('avisoForm').addEventListener('submit', function(e) {
         return;
     }
 
-    const numeroDestino = '5599999999999'; // Substitua pelo número real com DDI e DDD
+    const numeroDestino = '+5527997094763'; // Substitua pelo número real com DDI e DDD
     const textoFormatado = `📌 *${tema}*
 
 ✍️ *Nome:* ${nome}
