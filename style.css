@@ -44,3 +44,15 @@ button {
 button:hover {
     background-color: #25a;
 }
+.cartao-preview {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 2px dashed #007acc;
+    border-radius: 10px;
+    color: #000;
+}
+.cartao-preview h2 {
+    margin-top: 0;
+    color: #007acc;
+}
