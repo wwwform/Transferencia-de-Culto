@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Transferência de Culto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transferência de Culto</h1>
+        <form id="avisoForm">
+            <label for="tema">Tema do Aviso:</label>
+            <select id="tema" required>
+                <option value="">-- Selecione --</option>
+                <option value="Pedido de Oração">Pedido de Oração</option>
+                <option value="Testemunho">Testemunho</option>
+                <option value="Aviso de Família">Aviso de Família</option>
+                <option value="Outros">Outros</option>
+            </select>
+
+            <label for="nome">Seu nome completo:</label>
+            <input type="text" id="nome" required placeholder="Digite seu nome">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" rows="5" required placeholder="Escreva aqui sua mensagem..."></textarea>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
